@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Views\Dashboard\Index.cshtml" />
+    <None Include="Views\Graphs\Index.cshtml" />
+    <None Include="Views\User\login.cshtml" />
+    <None Include="Views\User\profile.cshtml" />
+    <None Include="Views\User\register.cshtml" />
+    <None Include="Views\Resources\Index.cshtml" />
+    <None Include="Views\Table\Index.cshtml" />
+    <None Include="wwwroot\bootstrap\css\bootstrap.min.css" />
+    <None Include="wwwroot\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\css\Nunito.css" />
+    <None Include="wwwroot\css\untitled.css" />
+    <None Include="wwwroot\fonts\fa-brands-400.eot" />
+    <None Include="wwwroot\fonts\fa-brands-400.svg" />
+    <None Include="wwwroot\fonts\fa-brands-400.ttf" />
+    <None Include="wwwroot\fonts\fa-brands-400.woff" />
+    <None Include="wwwroot\fonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\fonts\fa-regular-400.eot" />
+    <None Include="wwwroot\fonts\fa-regular-400.svg" />
+    <None Include="wwwroot\fonts\fa-regular-400.ttf" />
+    <None Include="wwwroot\fonts\fa-regular-400.woff" />
+    <None Include="wwwroot\fonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\fonts\fa-solid-900.eot" />
+    <None Include="wwwroot\fonts\fa-solid-900.svg" />
+    <None Include="wwwroot\fonts\fa-solid-900.ttf" />
+    <None Include="wwwroot\fonts\fa-solid-900.woff" />
+    <None Include="wwwroot\fonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\fonts\fontawesome-all.min.css" />
+    <None Include="wwwroot\fonts\XRXV3I6Li01BKofIMeaBXso.woff2" />
+    <None Include="wwwroot\fonts\XRXV3I6Li01BKofINeaB.woff2" />
+    <None Include="wwwroot\fonts\XRXV3I6Li01BKofIO-aBXso.woff2" />
+    <None Include="wwwroot\fonts\XRXV3I6Li01BKofIOOaBXso.woff2" />
+    <None Include="wwwroot\fonts\XRXV3I6Li01BKofIOuaBXso.woff2" />
+    <None Include="wwwroot\fonts\XRXX3I6Li01BKofIMNaDRs4.woff2" />
+    <None Include="wwwroot\fonts\XRXX3I6Li01BKofIMNaHRs71cA.woff2" />
+    <None Include="wwwroot\fonts\XRXX3I6Li01BKofIMNaMRs71cA.woff2" />
+    <None Include="wwwroot\fonts\XRXX3I6Li01BKofIMNaNRs71cA.woff2" />
+    <None Include="wwwroot\fonts\XRXX3I6Li01BKofIMNaORs71cA.woff2" />
+    <None Include="wwwroot\img\avatars\avatar1.jpeg" />
+    <None Include="wwwroot\img\avatars\avatar2.jpeg" />
+    <None Include="wwwroot\img\avatars\avatar3.jpeg" />
+    <None Include="wwwroot\img\avatars\avatar4.jpeg" />
+    <None Include="wwwroot\img\avatars\avatar5.jpeg" />
+    <None Include="wwwroot\img\dogs\image2.jpeg" />
+    <None Include="wwwroot\img\dogs\image3.jpeg" />
+    <None Include="wwwroot\js\bs-init.js" />
+    <None Include="wwwroot\js\chart.min.js" />
+    <None Include="wwwroot\js\theme.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="7.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
